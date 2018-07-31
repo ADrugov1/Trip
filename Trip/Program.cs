@@ -13,10 +13,15 @@ namespace Trip
         {
             var trips = new List<Tour>()
             {
-                new Tour("Melbourne","Cologne"),
-                new Tour("Moscow","Paris"),
-                new Tour("Cologne","Moscow")
-  
+                new Tour("a","b"),
+                new Tour("c","d"),
+                new Tour("h","i"),
+                new Tour("b","c"),
+                new Tour("d","e"),
+                new Tour("g","h"),
+                new Tour("e","f"),
+                new Tour("f","g"),
+
             };
             var result = new Converter().TourListToChain(trips);
 
